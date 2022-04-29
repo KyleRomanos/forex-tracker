@@ -1,0 +1,24 @@
+.group{
+    background: hsl(142, 97%, 49%);
+    width: 180px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 100px 80px;
+   border-radius: 25px; 
+}
+input,select{
+    background: none;
+    border:0;
+    color:black;
+    font-weight: bold;
+    background: hsl(142, 97%, 49%);
+    border-radius: 20px;
+}
+input{
+    padding-left: 10px;
+}
+select{
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
